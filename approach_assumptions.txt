@@ -1,0 +1,34 @@
+Developed python object-oriented solution with below approach and assumptions
+1 - Actual program https://github.com/ramamca90/ATG_scheduled_emails/blob/main/email_schedule.py
+1 - added products provided in the csv file
+    ex - https://github.com/ramamca90/ATG_scheduled_emails/blob/main/add_products.csv
+2 - similarly removed products provided in the csv file
+    ex - https://github.com/ramamca90/ATG_scheduled_emails/blob/main/remove_products.csv
+3 - Created list datastructure to store all products information
+    here we can use other types like dictionary or pandas to validate & store datastructure
+4 - Reading above csv files to add/remove prodcut from list of products
+5 - sorted the products data on basis of EmailDate
+6 - finally published detailed list of schedule mails data on console and placed it in anothee csv file
+    (This is final outcome of program)
+    ex - https://github.com/ramamca90/ATG_scheduled_emails/blob/main/scheduled_email_data.csv
+
+    console output
+    -------------
+    CustomerID ProductName Domain    EmailDate
+    Cust1234   domain      xyzzy.com 2020-01-01
+    Cust2345   hosting     plugh.com 2021-03-27
+    Cust1234   domain      xyzzy.com 2022-01-07
+    Cust2345   hosting     plugh.com 2022-03-24
+
+7 - added below place holder methods , if really requires we can implement these.
+        self.domain_send_mail()
+        self.hosting_send_mail()
+        self.pdomain_send_mail()
+
+        sample mail ids provided in the config file https://github.com/ramamca90/ATG_scheduled_emails/blob/main/mailids.cfg
+8 - we can add as many no of different domains data in 
+    https://github.com/ramamca90/ATG_scheduled_emails/blob/main/add_products.csv
+    https://github.com/ramamca90/ATG_scheduled_emails/blob/main/remove_products.csv
+
+
+    

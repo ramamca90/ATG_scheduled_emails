@@ -1,5 +1,6 @@
 '''
-
+Prototype service for scheduling and tracking transaction-based email
+         -- email_schedule.py
 '''
 import csv
 import os
@@ -22,9 +23,9 @@ class EmailSchedule:
                          ex - CustomerID,ProductName,Domain,EmailDate
         '''
         self.products = []
-        self.add_product_file = f"{os.path.dirname(os.path.realpath(__file__))}\\add_products.csv"
-        self.remove_product_file = f"{os.path.dirname(os.path.realpath(__file__))}\\remove_products.csv"
-        self.scheduled_email_data = f"{os.path.dirname(os.path.realpath(__file__))}\\scheduled_email_data.csv"
+        self.add_product_file = f"{os.path.dirname(os.path.realpath(__file__))}\\add_products.csv" #windows path
+        self.remove_product_file = f"{os.path.dirname(os.path.realpath(__file__))}\\remove_products.csv" #windows path
+        self.scheduled_email_data = f"{os.path.dirname(os.path.realpath(__file__))}\\scheduled_email_data.csv" #windows path
 
     @staticmethod
     def date_to_str(date):
