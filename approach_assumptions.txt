@@ -8,7 +8,7 @@ Developed python object-oriented solution with below approach and assumptions
     here we can use other types like dictionary or pandas to validate & store datastructure
 4 - Reading above csv files to add/remove prodcut from list of products
 5 - sorted the products data on basis of EmailDate
-6 - finally published detailed list of schedule mails data on console and placed it in anothee csv file
+6 - finally published the detailed list of schedule mails data on console and placed it in another csv file
     (This is final outcome of program)
     ex - https://github.com/ramamca90/ATG_scheduled_emails/blob/main/scheduled_email_data.csv
 
@@ -29,6 +29,9 @@ Developed python object-oriented solution with below approach and assumptions
 8 - we can add as many no of different domains data in 
     https://github.com/ramamca90/ATG_scheduled_emails/blob/main/add_products.csv
     https://github.com/ramamca90/ATG_scheduled_emails/blob/main/remove_products.csv
+    
+9 - Ran below python command to test the program(python>3.6)
+    python email_schedule.py 
 
 
     
