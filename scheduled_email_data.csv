@@ -1,0 +1,5 @@
+CustomerID,ProductName,Domain,EmailDate
+Cust1234,domain,xyzzy.com,2020-01-01
+Cust2345,hosting,plugh.com,2021-03-27
+Cust1234,domain,xyzzy.com,2022-01-07
+Cust2345,hosting,plugh.com,2022-03-24

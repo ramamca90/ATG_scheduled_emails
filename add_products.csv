@@ -1,0 +1,7 @@
+CustomerId,ProductName,Domain,StartDate,DurationMonths
+Cust1234,domain,xyzzy.com,2020-01-01,12
+Cust2345,hosting,plugh.com,2022-03-24,24
+Cust2345,hosting,plugh.com,2021-03-27,36
+Cust1234,domain,xyzzy.com,2022-01-07,12
+Cust3456,pdomain,abcdefg.net,2022-03-21,12
+Cust3456,pdomain,abcdefg.net,2022-03-28,12
